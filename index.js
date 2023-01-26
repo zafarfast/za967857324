@@ -88,9 +88,7 @@ inquirer.prompt([
 
     let readmeMarkup = `![License.](https://img.shields.io/static/v1?label=License&message=${userInput.license}&color=gold)    
 
-   # Project Title
-   ${userInput.projectName}
-   
+   # ${userInput.projectName}
    
    ## Description
    ${userInput.projectDescription}
