@@ -13,7 +13,7 @@ Professional README generator is application that takes user input on a Node.js 
 1) Clone this repository to your machine by typing `git clone git@github.com:zafarfast/za967857324.git` on the terminal.
 2) Initialize NPM in the cloned directory by typing `npm init`. 
 3) Install Inquirer version 8.2.4 by typing `npm install inquirer@8.2.4`
-4) Run the application by tyoing `node index.js` in the terminal.
+4) Run the application by typing `node index.js` in the terminal.
 5) Answer the prompts presented to you on terminal and the app will generate a README file.
 
 ## Links
