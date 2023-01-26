@@ -1,7 +1,20 @@
 # Professional README generator
 
 ## Description
-An application that takes user input on a Node.js application and generates a README.md file for Github would be a command-line tool that prompts the user for information about their project, such as the project name, description, and installation instructions. The tool would then use that information to generate a README.md file with the appropriate formatting and content. The user could then upload the generated file to their Github repository. The tool could also include options for customizing the look and feel of the generated README, such as including a badge or adding a table of contents.
+Professional README generator is application that takes user input on a Node.js command line interface and generates a README.md file for Github. It prompts the user for information about their project, such as the project name, description, and installation instructions. The tool would then use that information to generate a README.md file with the appropriate formatting and content. The user could then upload the generated file to their Github repository. The generated README file contains a badge and table of contents.
+
+## How to run the application
+
+#### Prerequisites:
+- Node JS
+
+#### Steps:
+
+1) Clone this repository on your machine.
+2) Initialize NPM in the cloned directory by typing 'npm init'. 
+3) Install Inquirer version 8.2.4 by typing 'npm install inquirer@8.2.4'
+4) Run the application by tyoing 'node index.js' in the terminal.
+5) Answer the prompts presented to you on terminal and the app will generate a README file.
 
 ## Links
 Github:
