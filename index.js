@@ -43,8 +43,8 @@ inquirer.prompt([
         name: "license",
         type: "list",
         message: "Choose license: ",
-        choices: ["MIT license", "GNU license", "Apache license", "Mozilla Public license"],
-        default: 'MIT license'
+        choices: ["MIT", "GNU", "Apache", "Mozilla"],
+        default: 'MIT'
   
     },
     {
@@ -86,7 +86,9 @@ inquirer.prompt([
     userInput.github = response.github
     userInput.email = response.email
 
-    let readmeMarkup = `# Project Title
+    let readmeMarkup = `![License.](https://img.shields.io/static/v1?label=License&message=${userInput.license}&color=gold)    
+
+   # Project Title
    ${userInput.projectName}
    
    
@@ -118,7 +120,7 @@ inquirer.prompt([
    ${userInput.usage}
    
    ## License 
-   ${userInput.license}
+   This application is covered under ${userInput.license}.
    
    ## Contributing 
    ${userInput.contribute}
